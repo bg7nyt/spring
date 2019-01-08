@@ -22,7 +22,7 @@ public class ApplicationTests {
 	}
 	@Test
 	public void failures() {
-		Assert.assertEquals(10,9);
+		Assert.assertEquals(10,8);
 	}
 	@Test
 	public void skipped() {
