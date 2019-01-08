@@ -23,10 +23,11 @@ public class ApplicationTests {
 	@Test
 	public void failures() {
 		Assert.assertEquals(10,8);
+		Assert.assertEquals(10,90);
 	}
 	@Test
 	public void skipped() {
-		Assert.assertEquals(10,8);
+		Assert.assertEquals(10,100);
 	}
 }
 
