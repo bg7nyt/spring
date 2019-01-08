@@ -14,7 +14,7 @@ public class ApplicationTests {
 
 	@Test
 	public void contextLoads() {
-		Assert.assertEquals(5,5);
+		Assert.assertEquals(5,50);
 	}
 	@Test
 	public void success() {
@@ -23,7 +23,6 @@ public class ApplicationTests {
 	@Test
 	public void failures() {
 		Assert.assertEquals(10,8);
-		Assert.assertEquals(10,90);
 	}
 	@Test
 	public void skipped() {
