@@ -14,7 +14,7 @@ public class ApplicationTests {
 
 	@Test
 	public void contextLoads() {
-		Assert.assertEquals(5,5);
+		Assert.assertEquals(15,5);
 	}
 	@Test
 	public void success() {
